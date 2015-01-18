@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
-# Script to download and sort Garfield comic strips into directories by year.
+# Copyright (C) 2015 Filip Brozovic
+# This code is published under the MIT License; see the LICENSE file for details.
 
 import argparse
 import datetime
