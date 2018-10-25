@@ -91,7 +91,7 @@ def generate_download_list(start_date, end_date):
     url_list = []
     cur_date = start_date
     while cur_date != end_date + datetime.timedelta(1):
-        url_list.append('http://garfield.com/uploads/strips/{0}-{1}-{2}.jpg'.format(str(cur_date.year),
+        url_list.append('https://d1ejxu6vysztl5.cloudfront.net/comics/garfield/{0}/{0}-{1}-{2}.gif'.format(str(cur_date.year),
                                                                                     str(cur_date.month).zfill(2),
                                                                                     str(cur_date.day).zfill(2)))
         cur_date = cur_date + datetime.timedelta(1)
